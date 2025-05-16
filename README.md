@@ -29,6 +29,6 @@ AT THE SAME TIME WE USE DEPENDENCY the library, for conecting our project
 ## HOW TO RUN  
 1. mvn spring-boot:run or use your IDE to run the application.
 2. LINK http://localhost:8080/ for the main page.
-3. LINK http://localhost:8080/greeting?name=Gulzira
+3. LINK http://localhost:8080/greeting?name=Gulzira greeting page 
 ## SCREENSHOT + RESULT 
-![printscreen](https://github.com/user-attachments/assets/ddf17b30-b6a9-41bf-88f3-1ae9a28463d3)
+![vistulariver](https://github.com/user-attachments/assets/ba361655-f97b-4800-bd7b-901182b354c1)
