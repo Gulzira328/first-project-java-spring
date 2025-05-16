@@ -3,27 +3,34 @@ This is a basic Spring Boot project created as part of Task 1 from the programmi
 
 ##  Short description
 The purpose of this application is to:
-- Create a new Spring Boot project from scratch.
+- Create a new Spring Boot project
 - Write the first simple Spring controller.
 - Run the project and handle a basic localhost request.
 - Use the `@ResponseBody` annotation to return text to the browser.
 
-## Technologies which we used
+## What I used in project 
 - Java
 - Spring Boot (latest  version which I used )
 - Spring Web
 - Maven
-- IntelliJ IDEA 3.5
+- INTJ
 
-## The structure of the project 
-- `FirstSpringAppApplication.java` – main class to run the Spring Boot app.
-- `GreetingController.java` – controller that handles a basic GET request to the root URL `/`.
+## THE STRUCTURE HOW IT WORKS 
+creating files on MAIN 
+then in directory resources for images and html files.
+- `HelloController.java` - processing for web requestsand 
+when we use localhost:8080/greeting?name=Vistula -> he is giving to me the HTML file as greeting.html for the name Vistula
+AT THE SAME TIME WE USE DEPENDENCY the library, for conecting our project 
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
 
-## How to Run 
+## HOW TO RUN  
 1. Open the project in **IntelliJ IDEA**.
-2. JDK is configured - java2017
-3. Run the main class: `FirstSpringAppApplication.java`.
-4. Open your browser and go to:  localhost to check the result
-5. Clone Repository , push to save everything !
-6. Finish 1 task
+2. Run the main class: `FirstSpringAppApplication.java`.
+3. Open your browser and go to:  localhost to check the result
+4. Clone Repository , push to save everything !
+## SCREENSHOT + RESULT 
 
+![Screenshot 2025-05-16 180225](https://github.com/user-attachments/assets/0fa8166b-19b0-4b5e-817c-c18d07a10a3e)
