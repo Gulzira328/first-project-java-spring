@@ -27,11 +27,8 @@ AT THE SAME TIME WE USE DEPENDENCY the library, for conecting our project
 </dependency>
 
 ## HOW TO RUN  
-1. Open the project in **IntelliJ IDEA**.
-2. Run the main class: `FirstSpringAppApplication.java`.
-3. Open your browser and go to:  localhost to check the result
-4. Clone Repository , push to save everything !
+1. mvn spring-boot:run or use your IDE to run the application.
+2. LINK http://localhost:8080/ for the main page.
+3. LINK http://localhost:8080/greeting?name=Gulzira
 ## SCREENSHOT + RESULT 
-LINK http://localhost:8080/greeting?name=Gulzira
-
 ![printscreen](https://github.com/user-attachments/assets/ddf17b30-b6a9-41bf-88f3-1ae9a28463d3)
